@@ -113,7 +113,7 @@ Region <br>
 * Frequency is how often customers have purchased from the ecommerce.
 * Monetary is a measure of how much customers have spent purchasing on the store.
 
-![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/Screenshot%202022-07-06%20at%2019-43-10%20E%20commerce%20Profit-Sales%20Customer%20RFM%20Clustering%20and%20Analysis%20-%20Jupyter%20Notebook.png) <br>
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/Screenshot%202022-07-06%20at%2019-42-51%20E%20commerce%20Profit-Sales%20Customer%20RFM%20Clustering%20and%20Analysis%20-%20Jupyter%20Notebook.png) <br>
 
 * Determining score for Recency, Frequency and Monetary. With a scale of 1 to 4.
 
@@ -144,18 +144,28 @@ Customer here are segmented into 5 different categories as follows:
 Based on our analysis, we divide the customers into 5 group, based on their RFM joint score. We may want to further anlyse the cluster using K means, checking to see if the model has similar outcome as our analysis here.
 
 ### K Means Cluster Modeling
-* Using pycaret as preprocessing tool, the setup si as follows
+* Using pycaret as preprocessing tool, the setup is as follows
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/Screenshot%202022-07-06%20at%2019-43-20%20E%20commerce%20Profit-Sales%20Customer%20RFM%20Clustering%20and%20Analysis%20-%20Jupyter%20Notebook.png) <br>
 
 * Create a default 4 different groups / cluster. Then, we will evaluate the model performance using elbow method.
 
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/index8.png) <br>
+
 * Elbow method provides us the means to evaluate K cluster and determine which clusters is the most optimum. For this dataset, the optimum is 4 clusters. It means we have to build another model in which the cluster groupis 5
 * Build another 2 different models, one with k = 4 and k = 5.
-* 
+
 ### Different Clusters Comparison 
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/index7.png) <br>
+
 * We can clearly see in 4 clusters, it lacks the group in which the higher value / loyal customer are. This is very reasonable, because customers who fall to this group only allocated for only a dozen if not lower than total of customers / only a handfull of customers.
 * So 5 clusters are the optimum ones for this dataset.
 
 ### 5 Clusters Analysis
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/newplot.png) <br>
+
 * Cluster 1 consists of 197 customers. Characteristics of this group of customers, average score for both frequency and monetary (at score of 3) also having low recency score (at score of 2). THe seasonal customers, one who only purchase during a certain events or large discounts. Needs to be given a stimulus to raise specificly their recency score.
 * Cluster 2 consists of 92 customers. These customers are the loyal ones, characterised by a high number for all metrics. High spending, frequent purchase and very recent buys as well. Needs to be very well maintained.
 * Cluster 3 consists of 171 customers. The potentially lost customers or perhaps already ones. Characterised by the low score of recency, but having an average score of both monetary and frequency. Perhaps these customers at some point are reguler buyers of the store, but at then decided to stop buying from the ecomerce. Needs marketing strategies to attract them back and start purhase from the store again.
