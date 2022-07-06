@@ -1,7 +1,7 @@
 ## Data Science Project : Ecommerce Profit-Sales RFM Customer Clustering and Analysis Overview
 * Dataset of one of Ecommerce sited in US with a customer's purchase history over the course year of 2015.
 * Analyse which products / categories's as well as product segment which provide the most inerms of profit and sales.
-* ANalyze and filter out which countries / regions which satisfies the 80% of sales / profit.
+* Analyze and filter out which countries / regions which satisfies the 80% of sales / profit.
 * Using Recency, Frequency and Monetary strategies to segment customers into certain groups based on the RFM scoring / metric.
 * Build unsupervised K means model to further improve / confirm customer segmentation.
 
@@ -79,4 +79,9 @@ Region
 * Next, grouping dataset based on the Customer Name / ID, this is to obtain the Recency, Frequency and Monetary values for each customers.
 * Recency is the distance between last purchase to the latest ones, measured in days.
 * Frequency is how often customers have purchased from the ecommerce.
-* Monetary is a measure of how many 
+* Monetary is a measure of how much customers have spent purchasing.
+
+* Determining score for Recency, Frequency and Monetary. With a scale of 1 to 4.
+* A higher number Recency score, means customer have purchased something very recently. The same applies to frequency and moentary score. Higher frequency score means customers have a history of purchasing frequently / several perhaps dozen times, whilst higher score of monetary means customers are generating higher profit stream for ecommerce. Most of the times, higher frequency correlates also with higher monetary.
+
+### RFM Score Distribution / Comparison
