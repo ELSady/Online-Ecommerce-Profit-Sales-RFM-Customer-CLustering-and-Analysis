@@ -9,7 +9,6 @@
 
 RFM analysis is a data driven customer behavior segmentation technique. RFM stands for recency, frequency, and monetary value. The idea is to segment customers based on when their last purchase was, how often they’ve purchased in the past, and how much they’ve spent overall. All three of these measures have proven to be effective predictors of a customer's willingness to engage in marketing messages and offers. While RFM analysis was born in direct-mail, it is a powerful tool for eCommerce stores to use today. RFM analysis allows us to make sense of all the customer data our store captures as part of interactions with the brand and customer transactions from the store. <br>
 
-
 ### Business Questions:
 * Which products / categories of product and segment generate the most of sales-profit?
 * Which Cities, Stattes and Countries generate the most of sales and profit? 
@@ -63,32 +62,44 @@ RFM analysis is a data driven customer behavior segmentation technique. RFM stan
 
 * As above, the date ranges over the courses of year 2015.
 
-* Creating new feature GMV (Gross Market Value).
+* Creating new feature GMV (Gross Market Value). <br>
 
 ![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/Screenshot%202022-07-06%20at%2019-38-49%20E%20commerce%20Profit-Sales%20Customer%20RFM%20Clustering%20and%20Analysis%20-%20Jupyter%20Notebook.png) <br>
 
 ### Visualization
-Product Categories
+Product Categories <br>
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/index1.png) <br>
 
 * Seems like the customers are keen on fashion related proiducts, evidence by the higher number of sales  / profit. It satisfies almost up to 65 % amount of sales / profit for the ecommerce. Meanwhile, home furniture only satisfies about 17 %, auto-accessories around 14% and lastly Electronic only around 5%. <br>
 
-Segment 
+Segment <br>
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/index2.png) <br>
 
 * Half of the customers are your typical end user consumer, which allocates for a 50% profit and sales for ecommerce, followed by corporate around 30% and home office around 20%. <br>
 
-City
+City <br>
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/Screenshot%202022-07-06%20at%2019-39-44%20E%20commerce%20Profit-Sales%20Customer%20RFM%20Clustering%20and%20Analysis%20-%20Jupyter%20Notebook.png) <br>
 
 * Of all the total 3636 cities, about one-third of them satisfie the 80% sales and profit. <br>
 
-States
+States <br>
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/Screenshot%202022-07-06%20at%2019-40-17%20E%20commerce%20Profit-Sales%20Customer%20RFM%20Clustering%20and%20Analysis%20-%20Jupyter%20Notebook.png) <br>
 
 * Meanwhile for the tates, 258 already satisfie the 80% profit and sales. <br>
 
-Country
+Country <br>
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/index3.png) <br>
 
 * Moving on to countries, we can already see united states top the the list in terms of sales and profit, satisfying almost of 20%, much much more than any other countries. Followed by Australia, France and Mexico in which satisfies around 7%,6% and 5% respectively. There are 29 of total countries which makes up the 80% profit and sales. <br>
 
-Region
+Region <br>
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/index4.png) <br>
 
 * Central seems the biggest contributors for the Ecommerce when it comes to profit and sales, makes up to 21% of it, followed by South, EMEA and north in which the 33 makes out around 13%, 10% and 9% for sales and proft respectively. <br>
 
