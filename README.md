@@ -58,8 +58,14 @@ RFM analysis is a data driven customer behavior segmentation technique. RFM stan
 
 ### Feature Engineering
 * Parsing Date time feature for ORder Date and Shipping Date. This is done to obtain tthe range of date of dataset. 
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/Screenshot%202022-07-06%20at%2019-38-36%20E%20commerce%20Profit-Sales%20Customer%20RFM%20Clustering%20and%20Analysis%20-%20Jupyter%20Notebook.png) <br>
+
 * As above, the date ranges over the courses of year 2015.
+
 * Creating new feature GMV (Gross Market Value).
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/Screenshot%202022-07-06%20at%2019-38-49%20E%20commerce%20Profit-Sales%20Customer%20RFM%20Clustering%20and%20Analysis%20-%20Jupyter%20Notebook.png) <br>
 
 ### Visualization
 Product Categories
