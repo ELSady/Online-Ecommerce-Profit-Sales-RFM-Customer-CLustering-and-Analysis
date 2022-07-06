@@ -5,7 +5,7 @@
 * Using Recency, Frequency and Monetary strategies to segment customers into certain groups based on the RFM scoring / metric.
 * Build unsupervised K means model to further improve / confirm customer segmentation.
 
-![alt text](https://github.com/ELSady/Clustering-Airflight-Customer-Segmentation-and-Analysis/blob/main/667307.jpg) <br>
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/413192.jpg) <br>
 
 RFM analysis is a data driven customer behavior segmentation technique. RFM stands for recency, frequency, and monetary value. The idea is to segment customers based on when their last purchase was, how often they’ve purchased in the past, and how much they’ve spent overall. All three of these measures have proven to be effective predictors of a customer's willingness to engage in marketing messages and offers. While RFM analysis was born in direct-mail, it is a powerful tool for eCommerce stores to use today. RFM analysis allows us to make sense of all the customer data our store captures as part of interactions with the brand and customer transactions from the store. <br>
 
