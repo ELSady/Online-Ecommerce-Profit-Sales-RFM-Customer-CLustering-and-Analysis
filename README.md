@@ -36,13 +36,25 @@ RFM analysis is a data driven customer behavior segmentation technique. RFM stan
 ### Dataset Profiling
 * Dataset consists of 51288 observations and 23 features, with a total dataset size of 1179624.
 
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/Screenshot%202022-07-06%20at%2019-36-30%20E%20commerce%20Profit-Sales%20Customer%20RFM%20Clustering%20and%20Analysis%20-%20Jupyter%20Notebook.png) <br>
+
 ### Feature Types
 * Majrity of features fall to the categorical types, meanwhile the rest of 6 are numerical ones.
 
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/Screenshot%202022-07-06%20at%2019-36-48%20E%20commerce%20Profit-Sales%20Customer%20RFM%20Clustering%20and%20Analysis%20-%20Jupyter%20Notebook.png) <br>
+
 ### Data Cleaning
 * There are no missing values detected.
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/Screenshot%202022-07-06%20at%2019-37-02%20E%20commerce%20Profit-Sales%20Customer%20RFM%20Clustering%20and%20Analysis%20-%20Jupyter%20Notebook.png) <br>
+
 * Further look at distinct values for each of categorical features aswell, abnormal values were non to be found.
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/Screenshot%202022-07-06%20at%2019-37-39%20E%20commerce%20Profit-Sales%20Customer%20RFM%20Clustering%20and%20Analysis%20-%20Jupyter%20Notebook.png) <br>
+
 * Dataset is perfectly clean.
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/Screenshot%202022-07-06%20at%2019-38-06%20E%20commerce%20Profit-Sales%20Customer%20RFM%20Clustering%20and%20Analysis%20-%20Jupyter%20Notebook.png) <br>
 
 ### Feature Engineering
 * Parsing Date time feature for ORder Date and Shipping Date. This is done to obtain tthe range of date of dataset. 
