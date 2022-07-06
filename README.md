@@ -7,7 +7,7 @@
 
 
 
-RFM analysis is a data driven customer behavior segmentation technique. RFM stands for recency, frequency, and monetary value. The idea is to segment customers based on when their last purchase was, how often they’ve purchased in the past, and how much they’ve spent overall. All three of these measures have proven to be effective predictors of a customer's willingness to engage in marketing messages and offers. While RFM analysis was born in direct-mail, it is a powerful tool for eCommerce stores to use today. RFM analysis allows us to make sense of all the customer data our store captures as part of interactions with the brand and customer transactions from the store. 
+RFM analysis is a data driven customer behavior segmentation technique. RFM stands for recency, frequency, and monetary value. The idea is to segment customers based on when their last purchase was, how often they’ve purchased in the past, and how much they’ve spent overall. All three of these measures have proven to be effective predictors of a customer's willingness to engage in marketing messages and offers. While RFM analysis was born in direct-mail, it is a powerful tool for eCommerce stores to use today. RFM analysis allows us to make sense of all the customer data our store captures as part of interactions with the brand and customer transactions from the store. <br>
 
 
 ### Business Questions:
@@ -98,4 +98,28 @@ Customer here are segmented into 5 different categories as follows:
 * Champion : Customers with two 4 points of RFM score, having highest possibility to turn into loyal customer which is a very valuable assets for the company.
 * Average : Customers with an average score, having at least two 3 score or a combined of 3 & 4 score each.
 * At Risk : Customers with double 1, 2, or both point of RFM Score and without any of 4 on their RFM, for these type of customers, the company must handle this seriously so taht they dont turn to lost customers.
-* Ghost or Lost :Customers with the lowest RFM Score
+* Ghost or Lost : Customers with the lowest RFM Score. <br>
+
+Based on our analysis, we divide the customers into 5 group, based on their RFM joint score. We may want to further anlyse the cluster using K means, checking to see if the model has similar outcome as our analysis here.
+
+### K Means Cluster Modeling
+* Using pycaret as preprocessing tool, the setup si as follows
+
+* Create a default 4 different groups / cluster. Then, we will evaluate the model performance using elbow method.
+
+* Elbow method provides us the means to evaluate K cluster and determine which clusters is the most optimum. For this dataset, the optimum is 4 clusters. It means we have to build another model in which the cluster groupis 5
+* Build another 2 different models, one with k = 4 and k = 5.
+* 
+### Different Clusters Comparison 
+* We can clearly see in 4 clusters, it lacks the group in which the higher value / loyal customer are. This is very reasonable, because customers who fall to this group only allocated for only a dozen if not lower than total of customers / only a handfull of customers.
+* So 5 clusters are the optimum ones for this dataset.
+
+### 5 Clusters Analysis
+* Cluster 1 consists of 197 customers. Characteristics of this group of customers, average score for both frequency and monetary (at score of 3) also having low recency score (at score of 2). THe seasonal customers, one who only purchase during a certain events or large discounts. Needs to be given a stimulus to raise specificly their recency score.
+* Cluster 2 consists of 92 customers. These customers are the loyal ones, characterised by a high number for all metrics. High spending, frequent purchase and very recent buys as well. Needs to be very well maintained.
+* Cluster 3 consists of 171 customers. The potentially lost customers or perhaps already ones. Characterised by the low score of recency, but having an average score of both monetary and frequency. Perhaps these customers at some point are reguler buyers of the store, but at then decided to stop buying from the ecomerce. Needs marketing strategies to attract them back and start purhase from the store again.
+* Cluster 4 consists of 201 customers. The current reguler customers. Having average number for all metrics (some at 4). Like the previous cluster 1, these customers need to be given stimulus aside from being well maintained. The potential to be loyal customers with the right marketing strategies.
+* Cluster 5 consists of 134 customers. The new customers. Characterised by the low number for both frequency and monetary, but high in terms of recency. Same as previous one, need further stimulus and or discount to attract them more and make them reguler ones.
+
+### Conclusion
+* 
