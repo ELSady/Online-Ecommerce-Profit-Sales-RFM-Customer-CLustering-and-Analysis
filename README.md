@@ -122,4 +122,10 @@ Based on our analysis, we divide the customers into 5 group, based on their RFM 
 * Cluster 5 consists of 134 customers. The new customers. Characterised by the low number for both frequency and monetary, but high in terms of recency. Same as previous one, need further stimulus and or discount to attract them more and make them reguler ones.
 
 ### Conclusion
-* 
+* Two types / product categories makes up for the 80% of profit and sales, those categories are fashion and home / furnitures. With Fashion makes up to 65% of profit / sales, while home and furnitures makes up to 17&.
+* Two customers segment makes up to 80% of profit / sales for ecommerce. End user consumers dominates the segment with a whooping 50% of profit / sales, followed by corporate at 30% and home office at 20%.
+* A total of 1084 cities already meets the 80% of profit / sales of ecommerce, while for states there are 257%.
+* There are 29 countries which already makes up the 80% of profit / sales. United states are on top at 19%, followed by Australia, France and Mexico.
+* 7 Region makes up the total 80% of profit / sales. With Central on top at 22%, followed by SOuth region, EMEA and North one.
+* 5 different customer clusters were dettermined based on RFM joint score. There's Loyal, Champion, Reguler, At risk and Lost / ghost customers.
+* 5 diferentt customers segment is also determined based on K means model. 
