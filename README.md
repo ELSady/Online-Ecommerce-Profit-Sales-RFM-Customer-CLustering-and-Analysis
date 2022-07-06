@@ -105,15 +105,25 @@ Region <br>
 
 ### Recency, Frequency, Monetary
 * First, filter out dataset including countries which makes up the 80% of profit and sales. As given previously, there are 29 total.
+
+
+
 * Next, grouping dataset based on the Customer Name / ID, this is to obtain the Recency, Frequency and Monetary values for each customers.
 * Recency is the distance between last purchase to the latest ones, measured in days.
 * Frequency is how often customers have purchased from the ecommerce.
 * Monetary is a measure of how much customers have spent purchasing on the store.
 
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/Screenshot%202022-07-06%20at%2019-43-10%20E%20commerce%20Profit-Sales%20Customer%20RFM%20Clustering%20and%20Analysis%20-%20Jupyter%20Notebook.png) <br>
+
 * Determining score for Recency, Frequency and Monetary. With a scale of 1 to 4.
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/Screenshot%202022-07-06%20at%2019-43-10%20E%20commerce%20Profit-Sales%20Customer%20RFM%20Clustering%20and%20Analysis%20-%20Jupyter%20Notebook.png) <br>
+
 * A higher number Recency score, means customer have purchased something very recently. The same applies to frequency and moentary score. Higher frequency score means customers have a history of purchasing frequently / several perhaps dozen times, whilst higher score of monetary means customers are generating higher profit stream for ecommerce. Most of the times, higher frequency correlates also with higher monetary.
 
 ### RFM Score Distribution / Comparison
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/index5.png) <br>
 
 Color in Red stands for Recency Distribution, Green stands for Frequency Distribution and Blue stands for Monetary Distribution. <br>
 * We can clearly see a rightly skewed distribution. Indicating that the majority customers in the last 15 days, many customers have recently purchased from the ecommerce. This is very good sign, customers are still highly-engaged to the store. 
@@ -121,6 +131,8 @@ Color in Red stands for Recency Distribution, Green stands for Frequency Distrib
 * Monetary distribution (blue in color) is alos in a ver good shape of normal one. It is clearly seen that majority of each customers have spent around 20000 to 25000 US dollar.
 
 ### Customer Segmentation based on RFM joint Score
+
+![alt text](https://github.com/ELSady/Online-Ecommerce-Profit-Sales-RFM-Customer-CLustering-and-Analysis/blob/main/index6.png) <br>
 
 Customer here are segmented into 5 different categories as follows:
 * Loyal : Customers with the highest RFM Score of 444 point.
